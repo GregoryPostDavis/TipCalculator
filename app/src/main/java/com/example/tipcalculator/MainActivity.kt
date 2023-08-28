@@ -15,7 +15,11 @@ import com.example.tipcalculator.ui.theme.TipCalculatorTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
+        setContentView(R.layout.activity_main)
+
+
+
+        /*setContent {
             TipCalculatorTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
@@ -25,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android")
                 }
             }
-        }
+        }*/
     }
 }
 
